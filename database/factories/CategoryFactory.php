@@ -6,6 +6,6 @@ use App\Category;
 $factory->define(Category::class, function (Faker $faker) {
     return [
         'name' => ucfirst($faker->word),
-        'description' => $faker->sentense(10),
+        'description' => $faker->sentence(10),
     ];
 });
